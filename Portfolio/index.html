@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio</title>
+</head>
+
+<body>
+<!-- Header con imagen (opcional) -->
+   <header>
+    <img class="" 
+    src="https://media.istockphoto.com/id/1225089159/vector/woman-sitting-with-laptop-freelance-online-studying-concept-remote-work-concept-vector.jpg?s=612x612&w=0&k=20&c=ARAP44H3fMmzb6-XU-TOJg0ehI-_DjgvLDiUL0AFH4A=" 
+    width="250px"
+    alt="Foto woman coding">
+   </header> 
+
+
+<section> 
+    <!-- Información personal -->
+    <h1> SOBRE MI </h1>
+   <p> Me llamo Laura. Estudié Educación Infantil y he sido profesora de Infantil durante muchos años. 
+    Soy una de las mujeres becadas de <b>Globo en Keepcoding</b> para formarme como desarrolladoras web.</p>
+</section>
+   <hr>
+<section>
+    <!-- Uso de listas con mis intereses -->
+   <h2> Mis intereses </h2>
+<ul>
+    <li> Harry Potter</li>
+    <li> Crafts </li>
+    <li> Ir de ruta en la montaña </li>
+    <li> Jazz & Ska </li>
+    <li> Anime </li>
+    <li> Videojuegos </li>
+</ul>
+</section>
+ <hr>
+<section>
+    <!-- Mis skills de programación - falta animar con css -->
+    <h2> Mis Skills </h2>
+<ul>
+    <li> Python </li>
+    <li> Git </li>
+    <li> HTML - CSS </li>
+    <li> Javascript </li>
+</ul>
+</section>
+<hr>
+<section>
+    <!-- El formulario -->
+    <h2>Formulario de contacto</h2>
+    <form action="/Portfolio/formulario-completado.html" method="post">
+        <div><label for="name"> Nombre </label>
+        <input required id="name" name="name" type="text" >
+        </div>
+
+        <div><label for="surname"> Apellidos </label>
+        <input required id="surname" name="surname" type="text" >
+        </div>
+
+        <div><label for="tel"> Teléfono </label>
+        <input required id="tel" type="tel" name="tel" id="" ></div>
+        
+        <fieldset>
+            <legend>¿Cómo me conociste?</legend>
+            
+            <label for="Universidad"> Universidad </label>
+            <input required type="radio" id="Universidad" name="lugar">
+
+            <label for="KeepCoging"> KeepCoding</label>
+            <input required  type="radio" name="lugar" id="KeepCoding">
+
+            <label for="GitHub"> En GitHub</label>
+            <input required  type="radio" name="lugar" id="GitHub">
+
+            <label for="linkedIn"> LinkedIn</label>
+            <input required type="radio" name="lugar" id="linkedIn">
+        </fieldset>
+        <input type="submit">
+    </form>
+</section>
+
+
+<footer>
+    <nav>
+        <a href="https://www.linkedin.com/in/lauraanido/"> LinkedIn </a>
+        <a href="https://github.com/Lauraanido"> GitHub </a>
+    </nav>
+</footer>
+</body>
+</html>
