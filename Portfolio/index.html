@@ -61,7 +61,7 @@
         </div>
 
         <div><label for="tel"> Teléfono </label>
-        <input required id="tel" type="tel" name="tel" id="" ></div>
+        <input required id="tel" type="tel" name="tel" pattern="[0-9]+" ></div>
         
         <fieldset>
             <legend>¿Cómo me conociste?</legend>
@@ -77,7 +77,20 @@
 
             <label for="linkedIn"> LinkedIn</label>
             <input required type="radio" name="lugar" id="linkedIn">
+
+            <label for="otro"> Otro sitio</label>
+            <input required type="radio" name="lugar" id="otro">
         </fieldset>
+
+        <fieldset>
+            <label for="GitHub">Indica tu tag de GitHub</label>
+            <input required type="text" name="GitHub" id="GitHub" pattern="">
+
+            <label for="bio">Cuéntame algo sobre ti</label>
+            <textarea name="bio" id="bio" cols="50" rows="5" maxlength="180">  </textarea>
+        </fieldset>
+
+
         <input type="submit">
     </form>
 </section>
