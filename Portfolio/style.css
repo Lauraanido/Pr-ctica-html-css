@@ -1,0 +1,20 @@
+
+:root{
+    --primary-color: #f2e9e4;
+    --header-color: #9a8c98;
+}
+
+h1{
+    background-color: var(--header-color);
+}
+
+h2{
+    background-color: var(--header-color);
+}
+
+footer{
+    font-style: normal;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    text-align: center;
+}

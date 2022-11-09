@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portfolio</title>
+
+    <link rel="stylesheet" href="/Portfolio/reset.css">
+    <link rel="stylesheet" href="/Portfolio/style.css">
 </head>
 
 <body>
@@ -21,7 +24,7 @@
     <!-- Información personal -->
     <h1> SOBRE MI </h1>
    <p> Me llamo Laura. Estudié Educación Infantil y he sido profesora de Infantil durante muchos años. 
-    Soy una de las mujeres becadas de <b>Globo en Keepcoding</b> para formarme como desarrolladoras web.</p>
+    Soy una de las mujeres becadas de Globo en Keepcoding para formarme como desarrolladoras web.</p>
 </section>
    <hr>
 <section>
@@ -84,7 +87,7 @@
 
         <fieldset>
             <label for="GitHub">Indica tu tag de GitHub</label>
-            <input required type="text" name="GitHub" id="GitHub" pattern="">
+            <input required type="text" name="GitHub" id="GitHub" pattern="^@[^\s]+">
 
             <label for="bio">Cuéntame algo sobre ti</label>
             <textarea name="bio" id="bio" cols="50" rows="5" maxlength="180">  </textarea>
@@ -98,8 +101,8 @@
 
 <footer>
     <nav>
-        <a href="https://www.linkedin.com/in/lauraanido/"> LinkedIn </a>
-        <a href="https://github.com/Lauraanido"> GitHub </a>
+        <a href="https://www.linkedin.com/in/lauraanido/" target="_blank"> LinkedIn </a>
+        <a href="https://github.com/Lauraanido" target="_blank"> GitHub </a>
     </nav>
 </footer>
 </body>
