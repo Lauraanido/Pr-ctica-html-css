@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portfolio</title>
+    <title> Hermione Granger </title>
 
     <link rel="stylesheet" href="/Portfolio/reset.css">
     <link rel="stylesheet" href="/Portfolio/style.css">
@@ -12,49 +12,72 @@
 
 <body>
 <!-- Header con imagen (opcional) -->
-   <header>
-    <img class="" 
-    src="https://media.istockphoto.com/id/1225089159/vector/woman-sitting-with-laptop-freelance-online-studying-concept-remote-work-concept-vector.jpg?s=612x612&w=0&k=20&c=ARAP44H3fMmzb6-XU-TOJg0ehI-_DjgvLDiUL0AFH4A=" 
+   <header class="header">
+    <img class="Foto" 
+    src="/f18466aae04ac00c0f8be556e89b32f0.jpg" 
     width="250px"
-    alt="Foto woman coding">
+    alt="Hermione">
+    <nav class="menu" >
+    <a class="link" href="index.html#intereses"> Mis intereses</a>
+    <a class="link" href="index.html#skills"> Mis skills</a>
+    <a class="link" href="index.html#contacto"> Contacto</a>
+    </nav>
    </header> 
 
 
-<section> 
+<div class="info"> 
     <!-- Información personal -->
     <h1> SOBRE MI </h1>
-   <p> Me llamo Laura. Estudié Educación Infantil y he sido profesora de Infantil durante muchos años. 
-    Soy una de las mujeres becadas de Globo en Keepcoding para formarme como desarrolladoras web.</p>
-</section>
-   <hr>
-<section>
-    <!-- Uso de listas con mis intereses -->
-   <h2> Mis intereses </h2>
+   <p> Soy Hermione Granger una bruja hija de muggles. Mis padres son dentistas en el mundo muggle. A los once años descubrí mi don mágico y fuí aceptada en el Colegio Hogwarts de Magia y Hechicería. Fuí seleccionada para la Casa Gryffindor. 
+    <br>
+    Mis mejores amigos son Harry Potter y Ron Weasley y los conocí en el Expreso de Hogwarts.
+    Soy una activista del Ejército de Dumbledore y mi sueño es ser Ministra de Magia.
+</p>
+</div>
+
+<div class="info">
+    <!-- Uso de listas con intereses -->
+   <h2 id="intereses"> Mis intereses </h2>
 <ul>
-    <li> Harry Potter</li>
-    <li> Crafts </li>
-    <li> Ir de ruta en la montaña </li>
-    <li> Jazz & Ska </li>
-    <li> Anime </li>
-    <li> Videojuegos </li>
+    <li> Leer </li>
+    <li> Aprender nuevos Encantamientos </li>
+    <li> Mi gato Crookshanks </li>
+    <li> Luchar por la liberación de los Elfos domésticos </li>
 </ul>
-</section>
- <hr>
-<section>
+</div>
+
+<div class="info">
     <!-- Mis skills de programación - falta animar con css -->
-    <h2> Mis Skills </h2>
-<ul>
-    <li> Python </li>
-    <li> Git </li>
-    <li> HTML - CSS </li>
-    <li> Javascript </li>
-</ul>
+    <h2 id="skills"> Mis Skills </h2>
+<ul class="habilidades">
+    <li> Defensa contra las Artes Oscuras </li>
+    <div class="container"></div>
+        <div class="skills DAO"> 50% </div>
+    
+        <li> Encantamientos </li>
+    <div class="container"></div>
+        <div class="skills Encantamientos"> 90% </div>
+    
+        <li> Vuelo </li>
+    <div class="container"></div>
+        <div class="skills vuelo"> 25% </div>
+    
+        <li> Adivinación </li>
+    <div class="container"></div>
+        <div class="skills adivinación"> 10% </div>
+    
+        <li> Pociones </li>
+    <div class="container"></div>
+        <div class="skills pociones"> 95% </div>
+    <li> </li>
+</div>
 </section>
-<hr>
-<section>
+
+<div class="form">
     <!-- El formulario -->
-    <h2>Formulario de contacto</h2>
+    <h2 id="contacto">Formulario de contacto</h2>
     <form action="/Portfolio/formulario-completado.html" method="post">
+       
         <div><label for="name"> Nombre </label>
         <input required id="name" name="name" type="text" >
         </div>
@@ -66,43 +89,45 @@
         <div><label for="tel"> Teléfono </label>
         <input required id="tel" type="tel" name="tel" pattern="[0-9]+" ></div>
         
-        <fieldset>
+
+
+        <fieldset class="preguntas">
             <legend>¿Cómo me conociste?</legend>
             
-            <label for="Universidad"> Universidad </label>
-            <input required type="radio" id="Universidad" name="lugar">
+            <input required type="radio" id="marcar" name="lugar">
+            <label id="opciones" for="Hogwarts"> Hogwarts </label>
 
-            <label for="KeepCoging"> KeepCoding</label>
-            <input required  type="radio" name="lugar" id="KeepCoding">
+            <input required  type="radio" name="lugar" id="marcar">
+            <label id="opciones" for="Libros"> Libros de Harry Potter </label>
 
-            <label for="GitHub"> En GitHub</label>
-            <input required  type="radio" name="lugar" id="GitHub">
+            <input required  type="radio" name="lugar" id="marcas">
+            <label id="opciones" for="Biblioteca"> En la biblioteca </label>
 
-            <label for="linkedIn"> LinkedIn</label>
-            <input required type="radio" name="lugar" id="linkedIn">
+            <input required type="radio" name="lugar" id="marcar">
+            <label id="opciones" for="Caldero"> En el Caldero Chorreante</label>
 
-            <label for="otro"> Otro sitio</label>
-            <input required type="radio" name="lugar" id="otro">
+            <input required type="radio" name="lugar" id="marcar">
+            <label id="opciones" for="otro"> Otro sitio</label>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="recuadros">
             <label for="GitHub">Indica tu tag de GitHub</label>
             <input required type="text" name="GitHub" id="GitHub" pattern="^@[^\s]+">
 
             <label for="bio">Cuéntame algo sobre ti</label>
-            <textarea name="bio" id="bio" cols="50" rows="5" maxlength="180">  </textarea>
+            <textarea name="bio" id="bio" maxlength="180">  </textarea>
         </fieldset>
 
 
         <input type="submit">
     </form>
-</section>
+</div>
 
 
 <footer>
     <nav>
-        <a href="https://www.linkedin.com/in/lauraanido/" target="_blank"> LinkedIn </a>
-        <a href="https://github.com/Lauraanido" target="_blank"> GitHub </a>
+        <a class="link" href="https://www.linkedin.com/in/lauraanido/" target="_blank"> LinkedIn </a>
+        <a class="link" href="https://github.com/Lauraanido" target="_blank"> GitHub </a>
     </nav>
 </footer>
 </body>
