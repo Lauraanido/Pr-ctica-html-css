@@ -86,7 +86,7 @@ h2{
     100%{width: 90%;}
 }
 
-.Vuelo{
+.vuelo{
     background-color: #ffc500;
     animation: fillVuelo 2s forwards;
 }
@@ -96,32 +96,33 @@ h2{
     100%{width: 25%;}
 }
 
-.Adivinación{
+.adivinacion{
     background-color: #ffc500;
-    animation: fillAdivinación 2s forwards;
+    animation: filladivinacion 2s forwards;
 }
-@keyframes fillAdivinación{
+@keyframes filladivinacion{
     0%{width: 0;}
     100%{width: 10%;}
 }
 
-.Pociones{
+.pociones{
     background-color: #ffc500;
-    animation: fillPociones 2s forwards;
+    animation: fillpociones 2s forwards;
 }
 
-@keyframes fillPociones{
+@keyframes fillpociones{
     0%{width: 0;}
     100%{width: 95%;}
 }
 
-.info, .form{
+.info, .form, .hobbies, .intro{
     background-color: var(--primary-color);
     border-radius: 10px;
     margin: 10px;
     text-align: justify;
     
 }
+
 
 
 .recuadros {
