@@ -69,6 +69,7 @@ h2{
 .DAO{
     background-color: #ffc500;
     animation: fillDAO 2s forwards;
+    
 }
 
 @keyframes fillDAO{
